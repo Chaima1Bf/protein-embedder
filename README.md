@@ -1,7 +1,8 @@
 Protein Embedder
 A Python library for processing protein FASTA files and generating embeddings using pre-trained models like ESM2.
-Installation
-pip install protein-embedder
+
+Installation :
+* pip install protein-embedder
 
 Usage :
 
