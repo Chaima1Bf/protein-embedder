@@ -13,14 +13,14 @@ model_name = "facebook/esm2_t33_650M_UR50D"
 pipeline = ProteinEmbeddingPipeline(dataset_path, output_dir, model_name)
 pipeline.run()
 
-Requirements
+Requirements:
 
-Python >= 3.8
-biopython >= 1.79
-torch >= 1.9.0
-transformers >= 4.20.0
-numpy >= 1.21.0
-tqdm >= 4.62.0
+* Python >= 3.8
+* biopython >= 1.79
+* torch >= 1.9.0
+* transformers >= 4.20.0
+* numpy >= 1.21.0
+* tqdm >= 4.62.0
 
 License
 MIT License
