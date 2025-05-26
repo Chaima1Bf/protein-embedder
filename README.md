@@ -3,15 +3,16 @@ A Python library for processing protein FASTA files and generating embeddings us
 Installation
 pip install protein-embedder
 
-Usage
-from protein_embedder import ProteinEmbeddingPipeline
+Usage :
+
+* from protein_embedder import ProteinEmbeddingPipeline
 
 * dataset_path = "path/to/your/dataset"
 * output_dir = "path/to/output/embeddings"
 * model_name = "facebook/esm2_t33_650M_UR50D"
 
-pipeline = ProteinEmbeddingPipeline(dataset_path, output_dir, model_name)
-pipeline.run()
+* pipeline = ProteinEmbeddingPipeline(dataset_path, output_dir, model_name)
+* pipeline.run()
 
 Requirements:
 
